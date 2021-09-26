@@ -7,9 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F710E4D426EE76A7000C4B83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710E4D326EE76A7000C4B83 /* Extensions.swift */; };
+		F710E4E226EE88B4000C4B83 /* ic_success.png in Resources */ = {isa = PBXBuildFile; fileRef = F710E4DE26EE88B3000C4B83 /* ic_success.png */; };
+		F710E4E426EE88B4000C4B83 /* ic_info.png in Resources */ = {isa = PBXBuildFile; fileRef = F710E4E026EE88B4000C4B83 /* ic_info.png */; };
+		F713BB492700E357001258F3 /* ic_error.png in Resources */ = {isa = PBXBuildFile; fileRef = F713BB472700E357001258F3 /* ic_error.png */; };
+		F713BB4A2700E357001258F3 /* ic_warning.png in Resources */ = {isa = PBXBuildFile; fileRef = F713BB482700E357001258F3 /* ic_warning.png */; };
+		F713BB4D2700E3C0001258F3 /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F713BB4C2700E3C0001258F3 /* ImageProvider.swift */; };
 		F7D8666626EE47C40041553B /* KOAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D8665C26EE47C40041553B /* KOAlert.framework */; };
 		F7D8666B26EE47C40041553B /* KOAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8666A26EE47C40041553B /* KOAlertTests.swift */; };
 		F7D8666D26EE47C40041553B /* KOAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D8665F26EE47C40041553B /* KOAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D8667D26EE48330041553B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8667C26EE48330041553B /* AppDelegate.swift */; };
+		F7D8667F26EE48330041553B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8667E26EE48330041553B /* SceneDelegate.swift */; };
+		F7D8668126EE48330041553B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8668026EE48330041553B /* ViewController.swift */; };
+		F7D8668426EE48330041553B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D8668226EE48330041553B /* Main.storyboard */; };
+		F7D8668626EE48350041553B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D8668526EE48350041553B /* Assets.xcassets */; };
+		F7D8668926EE48350041553B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D8668726EE48350041553B /* LaunchScreen.storyboard */; };
+		F7D8669326EE49070041553B /* KOAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8669226EE49070041553B /* KOAlertController.swift */; };
+		F7D8669526EE4AE90041553B /* KOAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8669426EE4AE90041553B /* KOAlertAction.swift */; };
+		F7D8669726EE4D190041553B /* KOAlertAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8669626EE4D190041553B /* KOAlertAnimation.swift */; };
+		F7D8669D26EE697E0041553B /* KOAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8669C26EE697E0041553B /* KOAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +39,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F710E4D326EE76A7000C4B83 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F710E4DE26EE88B3000C4B83 /* ic_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_success.png; sourceTree = "<group>"; };
+		F710E4E026EE88B4000C4B83 /* ic_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_info.png; sourceTree = "<group>"; };
+		F713BB472700E357001258F3 /* ic_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_error.png; sourceTree = "<group>"; };
+		F713BB482700E357001258F3 /* ic_warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_warning.png; sourceTree = "<group>"; };
+		F713BB4C2700E3C0001258F3 /* ImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
 		F7D8665C26EE47C40041553B /* KOAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KOAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D8665F26EE47C40041553B /* KOAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOAlert.h; sourceTree = "<group>"; };
 		F7D8666026EE47C40041553B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7D8666526EE47C40041553B /* KOAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D8666A26EE47C40041553B /* KOAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOAlertTests.swift; sourceTree = "<group>"; };
 		F7D8666C26EE47C40041553B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D8667A26EE48330041553B /* KOAlertExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOAlertExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D8667C26EE48330041553B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7D8667E26EE48330041553B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F7D8668026EE48330041553B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7D8668326EE48330041553B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7D8668526EE48350041553B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D8668826EE48350041553B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7D8668A26EE48350041553B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D8669226EE49070041553B /* KOAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOAlertController.swift; sourceTree = "<group>"; };
+		F7D8669426EE4AE90041553B /* KOAlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOAlertAction.swift; sourceTree = "<group>"; };
+		F7D8669626EE4D190041553B /* KOAlertAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOAlertAnimation.swift; sourceTree = "<group>"; };
+		F7D8669C26EE697E0041553B /* KOAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,14 +81,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7D8667726EE48330041553B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F710E4D526EE7B6B000C4B83 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8669426EE4AE90041553B /* KOAlertAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		F710E4D626EE7B75000C4B83 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8669626EE4D190041553B /* KOAlertAnimation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		F710E4D726EE7B80000C4B83 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F710E4D326EE76A7000C4B83 /* Extensions.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F710E4D826EE7B8D000C4B83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8669226EE49070041553B /* KOAlertController.swift */,
+				F7D8669C26EE697E0041553B /* KOAlertView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F710E4DB26EE826A000C4B83 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F710E4DE26EE88B3000C4B83 /* ic_success.png */,
+				F710E4E026EE88B4000C4B83 /* ic_info.png */,
+				F713BB472700E357001258F3 /* ic_error.png */,
+				F713BB482700E357001258F3 /* ic_warning.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F713BB4B2700E3B2001258F3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F713BB4C2700E3C0001258F3 /* ImageProvider.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		F7D8665226EE47C40041553B = {
 			isa = PBXGroup;
 			children = (
 				F7D8665E26EE47C40041553B /* KOAlert */,
 				F7D8666926EE47C40041553B /* KOAlertTests */,
+				F7D8667B26EE48330041553B /* KOAlertExample */,
 				F7D8665D26EE47C40041553B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +158,7 @@
 			children = (
 				F7D8665C26EE47C40041553B /* KOAlert.framework */,
 				F7D8666526EE47C40041553B /* KOAlertTests.xctest */,
+				F7D8667A26EE48330041553B /* KOAlertExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +168,12 @@
 			children = (
 				F7D8665F26EE47C40041553B /* KOAlert.h */,
 				F7D8666026EE47C40041553B /* Info.plist */,
+				F710E4D826EE7B8D000C4B83 /* View */,
+				F710E4D526EE7B6B000C4B83 /* Actions */,
+				F710E4D626EE7B75000C4B83 /* Animations */,
+				F710E4D726EE7B80000C4B83 /* Util */,
+				F713BB4B2700E3B2001258F3 /* Helper */,
+				F710E4DB26EE826A000C4B83 /* Resource */,
 			);
 			path = KOAlert;
 			sourceTree = "<group>";
@@ -84,6 +185,20 @@
 				F7D8666C26EE47C40041553B /* Info.plist */,
 			);
 			path = KOAlertTests;
+			sourceTree = "<group>";
+		};
+		F7D8667B26EE48330041553B /* KOAlertExample */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8667C26EE48330041553B /* AppDelegate.swift */,
+				F7D8667E26EE48330041553B /* SceneDelegate.swift */,
+				F7D8668026EE48330041553B /* ViewController.swift */,
+				F7D8668226EE48330041553B /* Main.storyboard */,
+				F7D8668526EE48350041553B /* Assets.xcassets */,
+				F7D8668726EE48350041553B /* LaunchScreen.storyboard */,
+				F7D8668A26EE48350041553B /* Info.plist */,
+			);
+			path = KOAlertExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +251,23 @@
 			productReference = F7D8666526EE47C40041553B /* KOAlertTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F7D8667926EE48330041553B /* KOAlertExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D8668B26EE48350041553B /* Build configuration list for PBXNativeTarget "KOAlertExample" */;
+			buildPhases = (
+				F7D8667626EE48330041553B /* Sources */,
+				F7D8667726EE48330041553B /* Frameworks */,
+				F7D8667826EE48330041553B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KOAlertExample;
+			productName = KOAlertExample;
+			productReference = F7D8667A26EE48330041553B /* KOAlertExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -144,11 +276,16 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Kaan Ozdemir";
 				TargetAttributes = {
 					F7D8665B26EE47C40041553B = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					F7D8666426EE47C40041553B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F7D8667926EE48330041553B = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -168,6 +305,7 @@
 			targets = (
 				F7D8665B26EE47C40041553B /* KOAlert */,
 				F7D8666426EE47C40041553B /* KOAlertTests */,
+				F7D8667926EE48330041553B /* KOAlertExample */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +315,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F713BB492700E357001258F3 /* ic_error.png in Resources */,
+				F710E4E226EE88B4000C4B83 /* ic_success.png in Resources */,
+				F713BB4A2700E357001258F3 /* ic_warning.png in Resources */,
+				F710E4E426EE88B4000C4B83 /* ic_info.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +329,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7D8667826EE48330041553B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D8668926EE48350041553B /* LaunchScreen.storyboard in Resources */,
+				F7D8668626EE48350041553B /* Assets.xcassets in Resources */,
+				F7D8668426EE48330041553B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +346,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D8669326EE49070041553B /* KOAlertController.swift in Sources */,
+				F7D8669D26EE697E0041553B /* KOAlertView.swift in Sources */,
+				F713BB4D2700E3C0001258F3 /* ImageProvider.swift in Sources */,
+				F7D8669526EE4AE90041553B /* KOAlertAction.swift in Sources */,
+				F710E4D426EE76A7000C4B83 /* Extensions.swift in Sources */,
+				F7D8669726EE4D190041553B /* KOAlertAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +360,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7D8666B26EE47C40041553B /* KOAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D8667626EE48330041553B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D8668126EE48330041553B /* ViewController.swift in Sources */,
+				F7D8667D26EE48330041553B /* AppDelegate.swift in Sources */,
+				F7D8667F26EE48330041553B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +382,25 @@
 			targetProxy = F7D8666726EE47C40041553B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7D8668226EE48330041553B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D8668326EE48330041553B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7D8668726EE48350041553B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D8668826EE48350041553B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F7D8666E26EE47C40041553B /* Debug */ = {
@@ -341,6 +528,7 @@
 		F7D8667126EE47C40041553B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8ZB49XM27T;
@@ -357,6 +545,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ko.KOAlert;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +554,7 @@
 		F7D8667226EE47C40041553B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8ZB49XM27T;
@@ -389,6 +579,7 @@
 		F7D8667426EE47C40041553B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZB49XM27T;
 				INFOPLIST_FILE = KOAlertTests/Info.plist;
@@ -407,6 +598,7 @@
 		F7D8667526EE47C40041553B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZB49XM27T;
 				INFOPLIST_FILE = KOAlertTests/Info.plist;
@@ -416,6 +608,44 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ko.KOAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7D8668C26EE48350041553B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZB49XM27T;
+				INFOPLIST_FILE = KOAlertExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ko.KOAlertExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D8668D26EE48350041553B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZB49XM27T;
+				INFOPLIST_FILE = KOAlertExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ko.KOAlertExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +678,15 @@
 			buildConfigurations = (
 				F7D8667426EE47C40041553B /* Debug */,
 				F7D8667526EE47C40041553B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D8668B26EE48350041553B /* Build configuration list for PBXNativeTarget "KOAlertExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D8668C26EE48350041553B /* Debug */,
+				F7D8668D26EE48350041553B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
